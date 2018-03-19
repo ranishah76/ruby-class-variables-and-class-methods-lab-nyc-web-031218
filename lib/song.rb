@@ -52,6 +52,9 @@ end
 def artist_count
   artist_count = 0 
   @@artists.each do |artist|
+    binding.pry
     artist[artist]
+    binding.pry
+  end 
 
 end
