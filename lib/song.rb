@@ -53,7 +53,9 @@ end
 def artist_count
   artist_count = {}
   @@artists.each do |artist|
-    binding.pry
-  end
+    if artist_count[artist]
+      artist_count += 1
+
+      end
 
 end
