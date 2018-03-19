@@ -51,11 +51,9 @@ def self.genre_count
 end
 
 def artist_count
-  artist_count = 0
+  artist_count = {}
   @@artists.each do |artist|
     binding.pry
-    artist[artist]
-    binding.pry
-  end 
+  end
 
 end
